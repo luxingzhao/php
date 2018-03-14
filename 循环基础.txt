@@ -1,0 +1,52 @@
+﻿while 循环
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$x=1;
+
+while($x<=5) {
+	echo "数字是：$x<br>";
+	$x++;
+}
+?>
+
+<body>
+<html>
+
+do...while
+
+
+<?php
+$x=1;
+do {
+	echo "数字是:$x <br>";
+	x++;
+}while($x<=5);
+
+?>
+
+
+for循环
+
+
+<?php
+	for ($i=0;$i<=1;$i++){
+	echo "数字是：$i<br>";
+	}
+?>
+
+foreach 循环
+
+foreach 循环只适用于数组，并用于遍历数组中的每个键/值对。
+
+<?php
+	$color = array("red","green","blue","yellow");
+	
+	foreach($color as $value){
+		echo "$value<br>";
+	}
+
+?>
